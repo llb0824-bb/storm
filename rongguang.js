@@ -7,7 +7,6 @@ var obj = JSON.parse(body);
 obj.data.ITEM_ID = "yubi10006";
 body = JSON.stringify(obj);
 $done({body});
-//测试成功
 /*
 参数说明
 title: 主标题
@@ -15,6 +14,6 @@ subtitle: 副标题
 body: 消息正文
 */
 
-$notification.post("Storm Sniffer","Network Debug Tool","充值修改成功!!!")
+$notification.post("Storm Sniffer","Network Debug Tool","最后的荣光充值修改成功!!!")
 
 
